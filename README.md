@@ -1,24 +1,10 @@
-# README
+Startüp Mehmet by:
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+- Jérémie Edery
+- Ridwan Baboolall
+- Louis Delestre
+- Nico Hermet
+- Jérémie de Gueltzl
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Please visit our very good restaurant vebsaïte at:
+https://tabs-carousel.herokuapp.com/
