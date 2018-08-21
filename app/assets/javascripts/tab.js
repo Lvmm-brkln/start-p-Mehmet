@@ -11,6 +11,35 @@ $(document).ready(function(){
 		$(this).addClass('current');
 		$("#"+tab_id).addClass('current');
 	})
+  $(".carousel").swipe({
+    swipe: function(
+      event,
+      direction,
+      distance,
+      duration,
+      fingerCount,
+      fingerData
+    ) {
+      if (direction == "left") $(this).carousel("next");
+      if (direction == "right") $(this).carousel("prev");
+    },
+    allowPageScroll: "vertical"
+  });
+
+  $(".carousel").swipe({
+    swipe: function(
+      event,
+      direction,
+      distance,
+      duration,
+      fingerCount,
+      fingerData
+    ) {
+      if (direction == "left") $(this).carousel("next");
+      if (direction == "right") $(this).carousel("prev");
+    },
+    allowPageScroll: "vertical"
+  });
 
 
 // mon code JQuery ici et nul part ailleurs //
